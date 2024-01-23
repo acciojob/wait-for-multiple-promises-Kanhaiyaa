@@ -1,4 +1,27 @@
-//your JS code here. If required.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 const res = document.getElementById("output");
 
@@ -52,50 +75,3 @@ async function callFns() {
           `;
 }
 callFns();
-
-// const result = document.getElementById('output');
-
-// function randomPromise() {
-// 	return new Promise((reject, resolve) => {
-// 		let time = Math.floor(Math.random() * 3) + 1;
-// 		setTimeout(() => {
-// 			resolve(time);
-// 		}, time * 1000);
-// 	});
-// }
-
-// const promises = [randomPromise(), randomPromise(), randomPromise()];
-
-// asyn function myFunction() {
-// 	const start = new Date();
-
-// 	result.innerHTML += `
-// 			 <tr id="loading">
-//                 <td colspan=2>Loading...</td>
-//             </tr>
-// 		`;
-// 	await Promise.all(promises)
-// 		.then((res) => {
-// 			const [time1, time2, time3] = res;
-// 			result.innerHTML += `
-// 				<tr>
-// 				   <td>Promise 1</td>
-// 				   <td>${time1}</td>
-// 				</tr>
-// 				<tr>
-// 				   <td>Promise 1</td>
-// 				   <td>${time2}</td>
-// 				</tr>
-// 	            <tr>
-// 				   <td>Promise 1</td>
-// 				   <td>${time3}</td>
-// 				</tr>
-// 			`;
-// 		});
-
-// 	const end = new Date();
-
-// 	const total = end - start;
-	
-// }
-// myFunction();
